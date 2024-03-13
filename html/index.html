@@ -2,9 +2,10 @@
 <html lang="en"></html>
 <html>
   <head>
-    <title></title>
+    <title>QuizApp</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../css/styles-homepage.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/index.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -13,7 +14,7 @@
     </header>
     <main>
       <section class="cards">
-        <button class="card__bookmark">🔖</button>
+        <button class="card__bookmark" data-js="bookMarkButton">🔖</button>
         <p class="question__text">What property flips the axes in flexbox?</p>
         <button class="answer__button">Show Answer</button>
         <ul class="tags" role="list">
@@ -23,7 +24,7 @@
         </ul>
       </section>
       <section class="cards">
-        <button class="card__bookmark">🔖</button>
+        <button class="card__bookmark" data-js="bookMarkButton">🔖</button>
         <p class="question__text">Lorem Ipsum dolor sit?</p>
         <button class="answer__button">Show Answer</button>
         <ul class="tags" role="list">
@@ -35,9 +36,15 @@
     </main>
     <footer class="footer">
       <nav>
-        <button class="homepage__button">🏠</button>
-        <button class="bookmark_button">🔖</button>
-        <button class="profilpage__button">👤</button>
+        <a href="./index.html"
+          ><button class="homepage__button__toggle">🏠</button></a
+        >
+        <a href="./bookmark-page.html"
+          ><button class="bookmark_button">🔖</button></a
+        >
+        <a href="./profile-page.html"
+          ><button class="profilpage__button">👤</button></a
+        >
       </nav>
     </footer>
   </body>

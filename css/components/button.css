@@ -1,0 +1,29 @@
+.answer__button {
+  border-radius: 4px;
+  background-color: whitesmoke;
+  width: 50%;
+  height: 40px;
+  max-width: 150px;
+}
+
+nav button {
+  padding: 10px 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: gray;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.profilpage__button__toggle {
+  background: black;
+}
+
+.bookmark_button__toggle {
+  background: black;
+}
+
+.homepage__button__toggle {
+  background: black;
+}

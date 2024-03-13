@@ -1,0 +1,8 @@
+.profile__img {
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
