@@ -6,6 +6,16 @@
   margin: 20px 10%;
   padding: 3% 10%;
 }
+
+.answer__cards {
+  position: relative;
+  background: rgb(177, 132, 139);
+  border-radius: 10px;
+  border: 4px solid black;
+  margin: 20px 10%;
+  padding: 3% 10%;
+}
+
 .question__text {
   color: black;
   font-size: larger;
@@ -26,4 +36,12 @@
 }
 .card__bookMarkToggle {
   background: black;
+}
+
+.card__answer__hide {
+  display: none;
+}
+
+.button__hide {
+  display: none;
 }

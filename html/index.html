@@ -16,15 +16,24 @@
       <section class="cards">
         <button class="card__bookmark" data-js="bookMarkButton">🔖</button>
         <p class="question__text">What property flips the axes in flexbox?</p>
-        <button class="answer__button">Show Answer</button>
+        <button class="answer__button" data-js="showAnswerButton">
+          Show Answer
+        </button>
+        <button class="answer__button button__hide" data-js="hideAnswerButton">
+          Hide Answer
+        </button>
         <ul class="tags" role="list">
           <li>#html</li>
           <li>#flexbox</li>
           <li>#css</li>
         </ul>
       </section>
+      <section class="answer__cards card__answer__hide" data-js="answerCard">
+        <h3>Answer</h3>
+        <p>flex-direction</p>
+      </section>
       <section class="cards">
-        <button class="card__bookmark" data-js="bookMarkButton">🔖</button>
+        <button class="card__bookmark">🔖</button>
         <p class="question__text">Lorem Ipsum dolor sit?</p>
         <button class="answer__button">Show Answer</button>
         <ul class="tags" role="list">
@@ -39,10 +48,11 @@
         <a href="./index.html"
           ><button class="homepage__button__toggle">🏠</button></a
         >
-        <a href="./bookmark-page.html"
+        <a href="./bookmark.html"
           ><button class="bookmark_button">🔖</button></a
         >
-        <a href="./profile-page.html"
+        <a href="./form.html"><button class="form__button">➕</button></a>
+        <a href="./profile.html"
           ><button class="profilpage__button">👤</button></a
         >
       </nav>

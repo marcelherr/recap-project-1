@@ -1,0 +1,29 @@
+form {
+  display: grid;
+  gap: 10px;
+}
+
+Fieldset {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.formButton {
+  margin: auto;
+  width: fit-content;
+}
+
+.formInput[type="submit"] {
+  margin: auto;
+  width: fit-content;
+}
+
+textarea {
+  width: 100%;
+}
+
+.remainingCharacters {
+  font-size: 0.9rem;
+  font-style: italic;
+}

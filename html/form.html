@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+  <head>
+    <title>QuizApp/form</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script src="../js/index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Quiz App</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Create Your Own Question</legend>
+          <label for="questionInput">Your Question:</label>
+          <textarea
+            id="questionInput"
+            data-js="questionInput"
+            name="questionInput"
+            rows="10"
+            cols="50"
+            placeholder="your question..."
+            maxlength="150"
+          ></textarea>
+          <p class="remainingCharacters">
+            <span data-js="remainingQuestionCharacters">150 </span>charaters
+            left
+          </p>
+          <label for="answerInput">Your Answer:</label>
+          <textarea
+            maxlength="150"
+            id="answerInput"
+            data-js="answerInput"
+            name="answerInput"
+            rows="10"
+            cols="50"
+            placeholder="your answer..."
+          ></textarea>
+          <p class="remainingCharacters">
+            <span data-js="remainingAnswerCharacters">150 </span>charaters left
+          </p>
+          <label for="tagInput">Tag's:</label>
+          <input name="tagInput" type="text" data-js="tagInput" />
+        </fieldset>
+        <button class="answer__button" data-js="formButton">
+          Create Question
+        </button>
+      </form>
+    </main>
+    <footer class="footer">
+      <nav>
+        <a href="./index.html"><button class="homepage__button">🏠</button></a>
+        <a href="./bookmark.html"
+          ><button class="bookmark_button">🔖</button></a
+        >
+        <a href="./form.html"
+          ><button class="form__button__toggle">➕</button></a
+        >
+        <a href="./profile.html"
+          ><button class="profilpage__button">👤</button></a
+        >
+      </nav>
+    </footer>
+  </body>
+</html>
